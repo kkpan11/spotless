@@ -3,6 +3,8 @@
 We adhere to the [keepachangelog](https://keepachangelog.com/en/1.0.0/) format (starting after version `3.27.0`).
 
 ## [Unreleased]
+
+## [7.0.0.BETA3] - 2024-10-15
 ### Added
 ### Changed
 * Use the Gradle user home directory by default for the download directory for the biome executable. Previously, the
@@ -17,6 +19,7 @@ We adhere to the [keepachangelog](https://keepachangelog.com/en/1.0.0/) format (
 * Bump default `cleanthat` version to latest `2.21` -> `2.22`. ([#2296](https://github.com/diffplug/spotless/pull/2296))
 ### Fixed
 * Java import order, ignore duplicate group entries. ([#2293](https://github.com/diffplug/spotless/pull/2293))
+* Remote build cache shouldn't have cache misses anymore. ([#2298](https://github.com/diffplug/spotless/pull/2298) fixes [#2168](https://github.com/diffplug/spotless/issues/2168))
 
 ## [7.0.0.BETA2] - 2024-08-25
 ### Changed
